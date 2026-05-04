@@ -1,0 +1,19 @@
+11. Por qué validar también en servidor
+
+Porque la validación en cliente se puede modificar o saltar fácilmente (por ejemplo, desactivando JavaScript o enviando peticiones falsas).
+El servidor es el único lugar donde se puede garantizar la seguridad y la integridad real de los datos.
+
+12. Qué pasa si los productos están en HTML
+No se pueden actualizar dinámicamente
+Es más difícil filtrarlos
+El código se vuelve repetitivo
+No es escalable
+Cualquier cambio requiere modificar el HTML manualmente
+13. Ventaja del carrito en array
+
+Guardar el carrito en un array permite:
+
+Modificarlo fácilmente (añadir/eliminar productos)
+Calcular el total dinámicamente
+Mantener estado durante la sesión
+Evitar recargar la página o perder datos
